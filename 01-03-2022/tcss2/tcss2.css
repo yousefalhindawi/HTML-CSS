@@ -1,0 +1,24 @@
+h3 {
+    text-decoration: underline;
+}
+.para {
+    color: #00f;
+}
+.link1 {
+    color: #ffa500;
+}
+.link2 {
+    background-color: #ffff00;
+}
+li a {
+    color: #f00;
+}
+.bold {
+    font-weight: bold;
+}
+.decoNone {
+    list-style: none;
+}
+li ul li {
+    color: #00f;
+}
