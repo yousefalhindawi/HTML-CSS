@@ -1,0 +1,24 @@
+h2 {
+    color: rgb(65, 142, 201);
+    background-color: rgb(75,151,209 , 0.4);
+}
+.blue {
+    color: rgb(65, 142, 201);
+}
+.bold {
+    font-weight: bold;
+}
+.boldy {
+    font-weight: bold;
+    text-align: center;
+}
+.submit {
+    background-color: rgb(128, 128, 128 , .6);
+}
+td,th {
+    border: 1px solid black;
+    
+}
+table {
+    border-collapse:collapse;
+}
