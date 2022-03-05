@@ -1,0 +1,313 @@
+/* Exercise#3 */
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.par {
+    font-weight: bold;
+}
+
+
+/* Exercise#4 */
+.Exercise4 td {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block; /* to make the td take padding & margin */
+    box-shadow: 3px 3px 3px grey;
+}
+
+
+/* Exercise#12 */
+div h3 {
+    margin: 5px;
+}
+.Exercise12 {
+    background-color: rgb(250, 181, 250);
+    width: 1000px;
+    padding: 5px;
+}
+.inline {
+     
+    display: inline-block; /* to make the <p> put element beside it */
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #f0f3f5 ;
+    overflow: hidden;
+}
+.bold {
+    width: 990px;
+    height: 59px;
+    margin: 15px;
+    overflow: auto; /* to make auto scroll */
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+/* Exercise#11 */
+.Exercise11 {
+    width: 1000px;
+    height: 500px;
+    padding-left: 5px;
+    overflow: auto;
+    position: relative; /* It puts the element relative to the normal flow */
+
+}
+img {
+    width: 70px;
+    height: 350px;
+    position: absolute; /* It puts the element relative to the nearest positioned ancestor */
+    right: 20px;
+    top: 20px;
+}
+
+
+/* Exercise#10 */
+.Exercise10 {
+    background-color: green;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+.Exercise101 {
+    width: 90%;
+    height: 90%;
+    border: 10px solid yellow;
+    position: absolute; /* to let it move relative to it's nearest positioned parent */
+    left: calc((1000px - (1000px*.9 + 20px))/2); /* (width of parent (Exercise10) 1000px - width of child Exercise101 (1000px*.9 + border size(10 left+10 right)))/2  */
+    top: calc((500px - (500px*0.9 + 20px))/2); /* (height of parent (Exercise10) 500px - height of child Exercise101 (500px*.9 + border size(10 left+10 right)))/2  */
+  
+}
+.Exercise102 {
+    width: 90%;
+    height: 90%;
+    border: 10px solid yellow;
+    position: absolute;
+    left: calc((900px - (900px*0.9 + 20px))/2); /* width of Exercise101 = 1000*0.9 = 900px */
+    top: calc((450px - (450px*0.9 + 20px))/2);  /* height of Exercise101 = 500*0.9 = 450px */
+}
+.Exercise102 span {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    display: block; /* to make the <span> take margin */
+    margin: 202.5px auto; /* (450*.9)/2 */
+    width: 150px;
+    height: 50px;
+}
+
+
+/* Exercise#9 */
+.Exercise9Y, .Exercise9G {
+    width: 50px;
+    height: 50px;
+    /* display: inline-block; */
+    float: left;
+    margin-left: 10px;
+}
+.Exercise9Y {
+    background-color: yellow;
+}
+.Exercise9G {
+    background-color: green;
+    position: relative; /* It puts the element relative to the normal flow - this position save the place of element in normal flow */
+    top: 25px; /* half the height */
+}
+.clear {
+    clear: both; /* to reset the normal flow */
+}
+
+
+/* Exercise#8 */
+.Exercise8 p {
+    display: inline-block;
+    padding: 25px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+.Exercise8 .even {
+    display: none;
+    /* visibility: hidden; */
+}
+
+
+/* Exercise#7 */
+h3 {
+    text-decoration: underline;
+}
+.para {
+    color: #00f;
+}
+.link1 {
+    color: #ffa500;
+}
+.link2 {
+    background-color: #ffff00;
+}
+li a {
+    color: #f00;
+}
+.boldy {
+    font-weight: bold;
+}
+.decoNone {
+    list-style: none;
+}
+li ul li {
+    color: #00f;
+}
+
+
+/* Exercise#6 */
+.Exercise6 {
+    width: 1000px;
+    height: 700px;
+    background-color:#FFFACA;
+}
+.h2Exercise6 {
+    padding: 20px;
+}
+.h2Exercise6, h4 {
+    text-transform: capitalize;
+}
+.Exercise6 div {
+    width: 500px;
+    height: 20%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid black;
+}
+.Exercise6 .Exercise61 {
+    color: #f00;
+    border: dotted;
+}
+span {
+    font-weight: bold;
+}
+.spper {
+    background-color: #ffa5006b;
+}
+.spbeige {
+    background-color: #ffff0061;
+}
+.Exercise61 span {
+    background-color: #ffff0061;
+}
+
+
+/* Exercise#5 */
+.Exercise5 {
+    width: 1000px;
+    height: 700px;
+    background-color: #FCF5E5;
+}
+.h2Exercise5 {
+    padding: 20px;
+}
+.h2Exercise5, h4 {
+    text-transform: capitalize;
+}
+.Exercise5 div {
+    width: 500px;
+    height: 20%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid black;
+}
+.Exercise5 .Exercise51 {
+    border: dotted ;
+}
+.Exercise51 p {
+    border: dotted red;
+    padding: 5px;
+}
+.Exercise5 .Exercise52 {
+    color: purple;
+    
+}
+span {
+    font-weight: bold;
+}
+.spper {
+    background-color: #ffa5006b;
+}
+.spbeige {
+    background-color: #ffff0061;
+}
+.Exercise52 span {
+    background-color: #ffff0061;
+}
+
+
+/* Exercise#13 */
+.Exercise13 {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #FFFACA;
+    overflow: auto;
+    position: relative;
+    
+}
+.Exercise131 {
+    border: 1px solid transparent;
+    height: 60px;
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+    left: calc((800px - 502px)/2);
+}
+.th, .body, .sec {
+    border: 1px solid transparent;
+}
+.th {
+    width: 50%;
+    height: 20px;
+    background-color: #DDC500;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+.body {
+    height: 60px;
+    width: 35%;
+    background-color: white;
+    padding: 10px;
+} 
+
+.sec {
+    height: 60px;
+    width: 15%;
+    background-color: #DCDCDC;
+    position: relative;
+    top: -1px;
+} 
+.sec ul {
+    position: absolute;
+    top: 0;
+}
+.Exercise13 .cookie {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    bottom: 18px;
+    width: 500px;
+    height: 210px;
+    text-align: center;
+    left: calc((800px - 500px)/2);
+}
+.cookie span {
+    display: inline-block;
+    padding: 15px;
+}
+
