@@ -1,0 +1,149 @@
+ /* Exercise#1 */
+ .div1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-property: width;
+    transition-duration: 2s ;
+    transition-timing-function: ease-in-out;
+}
+.div1:hover {
+    width: 300px;
+}
+.div2 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    transition-property: width, height;
+    transition-duration: 2s, 3s;
+    transition-timing-function: ease-in-out;
+}
+.div2:hover {
+    width: 300px;
+    height: 300px;
+}
+
+/* Exercise#2 */
+.div3 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: green;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    animation-name: bigger;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    animation-iteration-count: 3;
+}
+
+@keyframes bigger {
+    0% { width: 100px;
+    height: 100px;}
+    50% {  width: 300px;
+    height: 300px;}
+    100% { width: 100px;
+    height: 100px;}
+
+}
+
+/* Exercise#3 */
+.light {
+    width: 70px;
+    padding: 10px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid black;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+}
+.light div {
+    width: 70px;
+    height: 70px;
+    margin: 5px auto ;
+    background-color: grey;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-top: auto;
+}
+
+.red {
+    animation-name: red;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+.yellow {
+    animation-name: yellow;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+.green {
+    animation-name: green;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+}
+@keyframes red {
+    from {background-color: grey;}
+    to {background-color:red;}
+}
+@keyframes yellow {
+    from {background-color: grey;}
+    to {background-color:yellow;}
+}
+@keyframes green {
+    from {background-color: grey;}
+    to {background-color:green;}
+}
+
+/* Exercise#4 */
+   .div4 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation-name: location;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+   }
+   @keyframes location{
+       0% {margin-left:0;}
+       25% {margin-left:25%;}
+       50% {margin-left:50%;}
+       80% {margin-left:100%;}
+       100%{margin-left:0;}
+   }
+
+   /* Exercise#4 */
+   .div5parent {
+    position: relative;
+    background-color: blue;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+   }
+   .div5 {
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+    background-color: orange;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    position: absolute;
+    animation-name: location1;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+   }
+   @keyframes location1{
+    0% {top: 0;left: 0; background-image: linear-gradient(to right, #dfa681 0%, #f97453 100%)}
+    25% {top:0px;left: 800px;background-image: linear-gradient(to bottom, #9edf80 0%, #81ccdf 100%)}
+    50% {top: 300px; left: 800px;background-image: linear-gradient(to left, #8381df 0%, #53f9ee 100%)}
+    75% {top: 300px; left: 0px;background: linear-gradient(to top, #dfab81 0%, #f9bc53 100%)}
+    100% {top:0px; left: 0px;background-color: orange;}
+
+   }

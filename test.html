@@ -6,38 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="test.css">
-    <!-- <style>
-        div p {
-            color:#f00;
+    <style>
+        div {
+            position: relative;
+            background-color: green;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            transition-property: font-size;
+            transition-duration: 2s;
+            
+            
         }
-        .fam {
-            color:#0f0;
+        p {
+            position: absolute;
+            margin: 0;
+            background-color: yellow;
+            width: 50px;
+            height: 50px;
+            animation-name: position;
+            animation-duration: 5s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 2;
+            
+            
         }
-    </style> -->
+        @keyframes position {
+            0% {top:0px;left:0px;}
+            25% {top:0px;left: 450px;}
+            50% {top: 450px; left: 450px;}
+            75% {top: 450px; left: 0px;}
+            100% {top:0px; left: 0px;}
+        }
+        div:hover {
+            font-size: 2em;
+            
+        }
+        
+
+        
+    </style>
 </head>
 <body>
-    <!-- <form src="http://orange.com/">
-        <a href="C://Users/dell/Downloads/1.programming.png">link</a>
-        <a href="C://Users/dell/HTML-CSS/images/dog.jpg">dog absolute address</a>
-        <a href="/images/dog.jpg">dog relative address</a>
-        <img src="C://Users/dell/Downloads/1.programming.png" alt="">
-        <img src="../images/dog.jpg" alt="dog">
-        <img src="https://th.bing.com/th/id/R.9e8bfa4d03f5e61e71d9bb8ab3972c57?rik=ppG61S1uVRldwg&pid=ImgRaw&r=0" alt="">
-        <input type="password">
-        <input type="date">
-        <input type="datetime-local" value="0">
-        <label for="1"> all</label>
-        <input type="checkbox" id="1">
-        <input type="checkbox" id="2">
-        <input type="checkbox" id="3">
-    </form> -->
-    <!-- <div>
-        <p>yousef
-            <p class="fam">
-                alhindawi
-            </p>
-        </p>
-    </div> -->
+    <div> yousef
+        <p></p>
+    </div>
     
     
 </body>
