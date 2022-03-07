@@ -151,6 +151,7 @@
 }
 
 /* Exercise#5 */
+/* With Flex */
 .div5 {
     width: 500px;
     height: 500px;
@@ -167,7 +168,7 @@
     height: calc((500px - 20px)/3);
 }
 
-/* Exercise#5 */
+/* With Grid */
 h2 {
     text-align:center;
 }
