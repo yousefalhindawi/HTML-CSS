@@ -1,0 +1,189 @@
+  
+  /* Exercise#1 */
+  .div1 {
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border: 10px solid gold;
+    display: flex;
+    
+    
+}
+.div1 div {
+    width: 55.56%;
+}
+.div11 {
+    background-color: green;
+}
+.div12 {
+    background-color: yellow;
+}
+.div13 {
+    background-color: purple;
+}
+.div14 {
+    background-color: grey;
+}
+.div15 {
+    background-color: blue;
+}
+.div16 {
+    background-color: orange;
+}
+.div17 {
+    background-color: pink;
+}
+.div18 {
+    background-color: red;
+}
+.div19 {
+    background-color: brown;
+}
+
+/* Exercise#2 */
+.div2 {
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border: 10px solid gold;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.div2 div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div21 {
+    background-color: green;
+}
+.div22 {
+    background-color: yellow;
+}
+.div23 {
+    background-color: purple;
+}
+.div24 {
+    background-color: grey;
+}
+.div25 {
+    background-color: blue;
+}
+.div26 {
+    background-color: orange;
+}
+.div27 {
+    background-color: pink;
+}
+.div28 {
+    background-color: red;
+}
+.div29 {
+    background-color: brown;
+}
+.div210 {
+    background-color:aquamarine;
+}
+
+ /* Exercise#3 */
+.div3 {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: grey;
+    color: white;
+    display: flex;
+}
+.div3 div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.div31 {
+    background-color: orange;
+}
+.div32 {
+    background-color: blue;
+}
+
+/* Exercise#4 */
+
+.div4 {
+    width: 500px; 
+    height: 300px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, calc(500px/3));
+    grid-template-rows: 15% 60% 25%;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+
+}
+
+.div41 {
+    background-color: black;
+    grid-column-start: span 3;
+}
+.div42 {
+    background-color: orange;
+    grid-column-start: span 2;
+}
+.div43 {
+    background-color: green;
+}
+.div44 {
+    background-color: blue;
+    grid-column-start: span 3;
+}
+
+/* Exercise#5 */
+.div5 {
+    width: 500px;
+    height: 500px;
+    background-color: #dedede;
+    margin:20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.div5 div {
+    background-image: url(../images/happy.jpg);
+    background-size: cover;
+    width: calc((500px - 20px)/3);
+    height: calc((500px - 20px)/3);
+}
+
+/* Exercise#5 */
+h2 {
+    text-align:center;
+}
+.div6 {
+    width: 500px;
+    height: 500px;
+    background-color: #dedede;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns:repeat(3,calc((500px - 20px)/3));
+    grid-template-rows: repeat(3,calc((500px - 20px)/3));
+    
+    justify-content:space-between;
+    align-content:space-between; /* Or gap: 10px; */
+}
+.div6 div {
+    background-image: url(../images/happy.jpg);
+    background-size: cover;
+}
