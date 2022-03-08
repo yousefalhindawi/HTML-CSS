@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="tcss9">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       /* Exercise#1  */
+        .container div {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    </style>
+</head>
+  <body>
+      <!-- Exercise#1 -->
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 bg-secondary" style="height: 50px;">1</div>
+          </div>
+          <div class="row justify-content-between">
+              <div class="col-lg-9 bg-primary" >2</div>
+              <div class="col-lg-2 bg-info">3</div>
+          </div>
+          <div class="row mt-4 justify-content-between">
+            <div class="col-lg-4 bg-warning">4</div>
+            <div class="col-lg-4 bg-warning">5</div>
+            <div class="col-lg-3 bg-warning">6</div>
+            
+          </div>
+          <div class="row mt-4 justify-content-between">
+            <div class="col-lg-2 bg-info">7</div>
+            <div class="col-lg-9 bg-primary">8</div>
+          </div>
+          <div class="row mt-3 justify-content-between">
+            <div class="col-lg-3  bg-warning">9</div>
+            <div class="col-lg-3 bg-warning">10</div>
+            <div class="col-lg-3 bg-warning">11</div>
+            <div class="col-lg-2 bg-warning">12</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 bg-secondary" style="height: 50px;">13</div>
+          </div>
+      </div>
+      <br>
+      <hr>
+
+      <!-- Exercise#4 -->
+    <div class="container ">
+        
+            <input class="btn btn-danger p-10" type="button" value="button" style="width: 100%;padding: 20px;">
+            <input class="btn btn-warning mt-3" type="button" value="button" style="width: 100%;padding: 15px;">
+            <input class="btn btn-success mt-3 mb-4" type="button" value="button" style="width: 100%;">
+            <input class="btn btn-danger mt-4 mb-4" type="button" value="button" style="padding: 20px;">
+            <input class="btn btn-warning mt-4 mb-4" type="button" value="button" style="padding: 15px;">
+            <input class="btn btn-success mt-4 mb-4" type="button" value="button" style="padding: 10px;">
+            <input class="btn btn-light mt-4 mb-4" type="button" value="button">
+
+            <br><br>
+            <br>
+            <!-- Exercise#2 -->
+            <table class="table table-bordered" >
+                <thead>
+                  <tr >
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Mobile Number</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-danger">
+                    <td>Mark</td>
+                    <td>Doe</td>
+                    <td>0777777777</td>
+                    <td>g@mdo</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Marry</td>
+                    <td>Moe</td>
+                    <td>0777777777</td>
+                    <td>marry@example.com</td>
+                  </tr>
+                  <tr class="bg-primary">
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>0777777777</td>
+                    <td>july@example.com</td>
+                  </tr>
+                </tbody>
+              </table>
+    </div>
+    <br>
+    <hr>
+  </body>
+</html>

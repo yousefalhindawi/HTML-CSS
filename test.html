@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="test.css">
+    
     <style>
-        body {
+        /* body {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,15 +51,28 @@
         div:hover {
             font-size: 2em;
             
-        }
+        } */
         
-
+        @media print {
+            img {
+                display: none;
+            }
+            p {
+                color: red;
+            }
+        }
         
     </style>
 </head>
 <body>
-    <div> yousef
+    <!-- <div> yousef
         <p></p>
+    </div> -->
+    <div class="div1">
+        <img src="/images/happy.jpg" alt="happy image" Style="width:500px; height:500px ">
+        <h1>Paragraph</h1>
+        <p><strong>Jordan officially the Hashemite Kingdom of Jordan,</strong></p>
+        <p><b>Jordan officially the Hashemite Kingdom of Jordan,</b></p>
     </div>
     
     
